@@ -1,10 +1,10 @@
 body{
     margin: 0px;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(255, 255, 255);
 }
 main{
-    margin-left: 20px;
-    margin-right: 20px;
+    max-width: 900px;
+    margin: 20px 10px;
 }
 a:link{
     color: rgb(0, 0, 0);
@@ -15,11 +15,12 @@ a:visited{
 a:hover{
     color: blue;
 }
-h1{
+h1, h2{
+    margin-top: 20px;
     text-align: center;
 }
 p{
-    display: inline-block;
+    display: block;
     background-size: 7%;
     border-style: solid;
     border-width: 0.1cm;
@@ -27,13 +28,31 @@ p{
     background-color: rgb(158, 158, 158);
     word-spacing: 2px;
     line-height: 25px;
-    animation: myslide;
-    animation-fill-mode: 1;
-    animation-duration: 1s;
+    max-width: 700px;
+    margin: 20px 0;
+    animation: reveal 0.8s ease-out forwards;
 }
-@keyframes myslide{
-    from{margin-right: 100%;}
-    to{margin-left: 0%;}
+section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease-out;
+    margin-bottom: 40px;
+}
+  
+section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+  
+@keyframes reveal{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 .dropdown{
     display: inline-block;
@@ -64,23 +83,64 @@ p{
 .dropdown a:hover{
     background-color: rgb(179, 179, 179);
 }
+nav {
+    display: flex;
+    gap: 20px;
+    padding: 15px 30px;
+    background: black;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.navbar {
+    max-width: 510px;
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+}
 .navbar ul{
-    list-style-type: none; 
+    display: flex;
+    justify-content: flex-start;
+    list-style: none; 
     background-color: rgb(29, 29, 29);
     padding: 0px;
     margin: 0px;
-    overflow: hidden;
+    max-width: 900px;
 }
 .navbar a{
     color: white;
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 15px 25px;
     display: block;
     text-align: center;
+    transition: background 0.3s;
 }
 .navbar a:hover{
-    background-color: hsl(0,0%,10%);
+    background-color: hsl(0, 0%, 32%);
+
 } 
-.navbar li{
-    float: left;
+
+.quiz button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
 }
+.progress {
+    width: 100%;
+    max-width: 700px;
+    height: 12px;
+    background: #ddd;
+    margin: 15px auto;
+    border-radius: 6px;
+    overflow: hidden;
+}
+  #progressBar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(to right, #44ac49, #16eb39);
+    transition: width 0.4s ease;
+}  
