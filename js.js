@@ -58,6 +58,8 @@ const quiz = [
   const feedbackEl = document.getElementById("feedback");
   const scoreEl = document.getElementById("score");
   const nextBtn = document.getElementById("next");
+  quiz.sort(() => Math.random() - 0.5);
+
   
   function loadQuestion() {
     feedbackEl.textContent = "";
