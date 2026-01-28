@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slush site</title>
+    <title>Bohr Atomic Model - Slush site</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/jpg" href="IMG_20250323_093627_145.jpg">
 </head>
 <body>
-    <h1 >Welcome to The Slush Study Site</h1>
+    <h1>Learn atomic structure using the Bohr model</h1>
     <nav class="navbar">
         <ul>
             <li><a href="website.html">Home</a></li>
@@ -19,17 +19,21 @@
         </ul>
     </nav>
     <main>
-        <h3>This is the Bohr model page</h3>
-        <p style="color: white;">In the bohr model there are three rings. These have different amount of electrons. The first ring CAN only have two electrons.<br>
+        <section>
+            <h3>This is the Bohr model page</h3>
+            <p style="color: white;">In the bohr model there are three rings. These have different amount of electrons. The first ring CAN only have two electrons.<br>
             The second and so on can have eight electrons.<br>
             If you don't know what electrons are I will tell you. The atom is the smallest unit. A electron is a subatomic particle.<br>
             They give off negative charge. They have no smaller particles.<br>
-            In the middle of an atome there is an nucleus with protons and neutrons.<br>
+            In the middle of an atom there is an nucleus with protons and neutrons.<br>
             Protons have a positive charge. Neutrons have no charge at all.<br>
-            The number of protons and electrons are the same. 
-        </p><br>
+            The number of protons and electrons are the same.<br>
+            To find the amount of neutrons there are in an atom is to take the mass number and subtract the atomic weight. You might have to round up or down depending on the elemene.
+            </p><br>
+        </section>
         <img src="download.jpeg"><br>
-        <p style="color: white;" >Ready for your mind to be blown.<br>
+        <section>
+            <p style="color: white;" >Ready for your mind to be blown.<br>
            The subatomic particles I talked about have even smaller particles; the nuetrons and the protons have quarks in them.<br>
            A proton is made up of of two up quarks and one down quark.<br>
            A nuetron is made up of two down quarks and one up quark.<br>
@@ -37,7 +41,26 @@
            What's that I hear "what about an electron what quarks is it made of!"<br>
            Well an electron is a elementary particles meaning they can't be made of smaller particles.<br>
            I hope you had a fun time reading all of these.</p><br>
-        <img src="tablechem_238869971.jpg"><br>
+        </section>
+            <img src="tablechem_238869971.jpg"><br>
+            <div class="progress">
+                <div id="progressBar"></div>
+              </div>
+              
+            <section class="quiz">
+                <h2>Quiz</h2>
+              
+                <p style="color: white;" id="question"></p>
+              
+                <div id="answers"></div>
+              
+                <p style="color: rgb(28, 233, 21);" id="feedback"></p>
+                <p style="color: white;" id="score"></p>
+              
+                <button id="next">Next Question</button>
+              </section>
+              
     </main>
 </body>
+<script src="js.js"></script>
 </html>
