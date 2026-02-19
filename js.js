@@ -48,7 +48,7 @@ const quiz = [
       correct: "12"
     },
     {
-      question: "What two letter represent sodium?",
+      question: "What two letters represent sodium?",
       answers: ["so", "Na", "wh"],
       correct: "Na"
     }
@@ -109,4 +109,5 @@ const quiz = [
   loadQuestion();
   
     
+
 
