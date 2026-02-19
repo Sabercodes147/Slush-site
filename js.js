@@ -38,7 +38,7 @@ const quiz = [
       correct: "Protons & neutrons"
     },
     {
-      question: "How many protons and electrons are in the element sodium",
+      question: "How many protons are in the element sodium",
       answers: ["11", "29", "10"],
       correct: "11"
     },
@@ -46,8 +46,12 @@ const quiz = [
       question: "How many neutrons are in the element sodium",
       answers: ["11.99", "13", "12"],
       correct: "12"
+    },
+    {
+      question: "What two letter represent sodium?",
+      answers: ["so", "Na", "wh"],
+      correct: "Na"
     }
-    
 ];
   
   let current = 0;
@@ -105,3 +109,4 @@ const quiz = [
   loadQuestion();
   
     
+
