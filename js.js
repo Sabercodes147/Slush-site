@@ -51,6 +51,16 @@ const quiz = [
       question: "What two letters represent sodium?",
       answers: ["so", "Na", "wh"],
       correct: "Na"
+    },
+    {
+      question: "What is the atomic number for sodium?",
+      answers: ["10", "11", "12"],
+      correct: "11"
+    },
+    {
+      question: "What is the atomic mass without rounding?",
+      answers: ["30", "23.8", "22.990"],
+      correct: "22.990"
     }
 ];
   
@@ -109,5 +119,6 @@ const quiz = [
   loadQuestion();
   
     
+
 
 
