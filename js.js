@@ -58,9 +58,19 @@ const quiz = [
       correct: "11"
     },
     {
-      question: "What is the atomic mass without rounding?",
+      question: "What is the atomic mass for sodium without rounding?",
       answers: ["30", "23.8", "22.990"],
       correct: "22.990"
+    },
+    {
+      question: "What is the atomic number for hydrogen?",
+      answers: ["2", "3", "1"],
+      correct: "1"
+    },
+    {
+      question: "What is the atomic mass for hydrogen without rounding?",
+      answers: ["2", "1.05", "1.0078"],
+      correct: "1.0078"
     }
 ];
   
@@ -119,6 +129,7 @@ const quiz = [
   loadQuestion();
   
     
+
 
 
 
