@@ -53,6 +53,16 @@ const quiz = [
       correct: "Na"
     },
     {
+      question: "Is everything made up of matter?",
+      answers: ["yes", "no"],
+      correct: "yes"
+    },
+    {
+      question: "What quarks make up a proton?",
+      answers: ["two down & one up", "two up & one down"],
+      correct: "two up & one down"
+    },
+    {
       question: "What is the atomic number for sodium?",
       answers: ["10", "11", "12"],
       correct: "11"
@@ -129,6 +139,7 @@ const quiz = [
   loadQuestion();
   
     
+
 
 
 
