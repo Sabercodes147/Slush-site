@@ -55,7 +55,7 @@ section.show {
     }
 }
 .dropdown{
-    display: solid;
+    display: inline-block;
 }
 .dropdown button{
     background-color: hsl(0, 0%, 25%);
