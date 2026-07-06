@@ -24,8 +24,8 @@ p{
     background-size: 7%;
     border-style: solid;
     border-width: 0.1cm;
-    border-image: linear-gradient(to right, #55a8b3, #b94536) 1;
-    background-color: rgb(158, 158, 158);
+    border-color: black;
+    background-color: rgb(240, 240, 240);
     word-spacing: 2px;
     line-height: 25px;
     max-width: 700px;
@@ -55,12 +55,12 @@ section.show {
     }
 }
 .dropdown{
-    display: inline-block;
+    display: solid;
 }
 .dropdown button{
     background-color: hsl(0, 0%, 25%);
     color: white;
-    border-style: outset;
+    border-style: groove;
     border-width: 5px;
     padding: 12px 14px;
     cursor: pointer;
