@@ -158,6 +158,12 @@ nav a:hover {
     cursor: pointer;
 }
 
+.threebar {
+    display: box;
+    background: darkblue;
+    
+}
+
 @keyframes threebars {
     
 }
