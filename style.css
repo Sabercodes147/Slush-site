@@ -172,11 +172,12 @@ nav a:hover {
 }
 
 
-.threebar_content {
+#threebar_content {
+    opacity: 0;
     width: 40px;
     hieght: 40px;
     background: darkblue;
-    display: none;
+    display: box;
     postition: absolute;
     animation: threebars 0.8s ease-out forwards;
 }
