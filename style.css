@@ -152,18 +152,28 @@ nav a:hover {
 
 .threebar button{
     background-color: hsl(0, 0%, 25%);
-    color: white;
-    border-width: 5px;
-    padding: 12px 14px;
     cursor: pointer;
 }
 
-.threebar {
+.threebar:hover {
+    cursor: pointer;
     display: box;
     background: darkblue;
-    
+    animation: threebars 0.8s ease-out forwards;
+}
+
+.threebar {
+    width: 40px;
+    hieght: 40px;
 }
 
 @keyframes threebars {
-    
+      from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
