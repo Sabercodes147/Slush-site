@@ -149,3 +149,15 @@ nav a:hover {
     background: linear-gradient(to right, #44ac49, #16eb39);
     transition: width 0.4s ease;
 }  
+
+.threebar {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    background: blue;
+}
+
+@keyframes threebars {
+    
+}
