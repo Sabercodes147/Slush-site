@@ -162,7 +162,7 @@ nav a:hover {
     position: sticky;
     top:10px;
     right:10px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     cursor: pointer;
     border-style: solid;
 }
