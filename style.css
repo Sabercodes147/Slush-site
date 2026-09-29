@@ -160,6 +160,7 @@ nav a:hover {
     right:10px;
     background-color: rgb(201, 199, 199);
     cursor: pointer;
+    border-style: groove;
 }
 
 .threebar:hover {
