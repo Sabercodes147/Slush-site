@@ -180,16 +180,16 @@ nav a:hover {
     background: darkblue;
     display: box;
     postition: absolute;
-    animation: threebars 0.8s ease-out forwards;
+    animation: threebars 0.8s ease-out backwards;
 }
 
 @keyframes threebars {
       from{
         opacity: 0;
-        transform: translateX(20px);
+        transform: translateY(20px);
     }
     to{
         opacity: 1;
-        transform: translateX(0);
+        transform: translateY(0);
     }
 }
