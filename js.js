@@ -7,9 +7,11 @@ const threebar = document.getElementById("threebar_content");
 
 threebar.onclick = () => {
   threebar.style.opacity = 1;
-}
+};
 
-
+//threebar.forEach(button => {
+ // button.addEventListener("click", () =>) {}
+//}
 
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
