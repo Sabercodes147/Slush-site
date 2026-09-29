@@ -154,6 +154,10 @@ nav a:hover {
     transition: width 0.4s ease;
 }  
 
+.threebar {
+    display: inline-block;
+}
+
 .threebar button{
     position: sticky;
     top:10px;
@@ -167,13 +171,11 @@ nav a:hover {
     cursor: pointer;
 }
 
-.threebar {
+
+.threebar_content {
     width: 40px;
     hieght: 40px;
     background: darkblue;
-}
-
-.threebar_content {
     display: none;
     postition: absolute;
     animation: threebars 0.8s ease-out forwards;
