@@ -165,11 +165,12 @@ nav a:hover {
 .threebar {
     width: 40px;
     hieght: 40px;
+    background: darkblue;
 }
 
 .threebar_content {
-    display: box;
-    background: darkblue;
+    display: none;
+    postition: absolute;
     animation: threebars 0.8s ease-out forwards;
 }
 
