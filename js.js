@@ -1,6 +1,16 @@
 const progressBar = document.getElementById("progressBar");
 const sections = document.querySelectorAll("section");
 
+
+
+const threebar = document.getElementById("threebar_content");
+
+threebar.onclick = () => {
+  threebar.style.opacity = 1;
+}
+
+
+
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -137,8 +147,10 @@ const quiz = [
   };
   
   loadQuestion();
-  
-    
+
+
+
+
 
 
 
