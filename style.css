@@ -158,9 +158,9 @@ nav a:hover {
     position: sticky;
     top:10px;
     right:10px;
-    background-color: rgb(201, 199, 199);
+    background-color: black;
     cursor: pointer;
-    border-style: groove;
+    border-style: solid;
 }
 
 .threebar:hover {
