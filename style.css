@@ -159,12 +159,15 @@ nav a:hover {
     cursor: pointer;
     display: box;
     background: darkblue;
-    animation: threebars 0.8s ease-out forwards;
 }
 
 .threebar {
     width: 40px;
     hieght: 40px;
+}
+
+.threebar_content {
+    animation: threebars 0.8s ease-out forwards;
 }
 
 @keyframes threebars {
