@@ -174,7 +174,7 @@ nav a:hover {
 }
 
 .threebar a{
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
     padding: 5px 8px;
 }
@@ -182,11 +182,11 @@ nav a:hover {
     display: block;
 }
 .threebar a:hover{
-    background-color: rgb144, 212, 198);
+    background-color: hsl((0, 0%, 32%);
 }
 
 .threebar .threebar_content {
-    background-color: rgb(16, 179, 146);
+    background-color: hsl(0°, 0%, 33%);
     postition: absolute;
 }
 
