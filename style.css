@@ -173,16 +173,21 @@ nav a:hover {
     background-color: hsl(0, 0%, 32%);
 }
 
-.threebar p{
-    color: white;
-    text-decoration: none;
-    padding: 5px 8px;
-}
 .threebar:hover .threebar_content{
     display: block;
 }
-.threebar p:hover{
+
+
+.threebar_content p:hover{
     background-color: hsl((0, 0%, 0%);
+}
+
+.threebar:hover .threebar_content p{
+    padding: 15px 25px;
+    display: block;
+    text-align: center;
+    color: white;
+    display: block;
 }
 
 .threebar .threebar_content {
