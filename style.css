@@ -182,12 +182,13 @@ nav a:hover {
     display: block;
 }
 .threebar p:hover{
-    background-color: hsl((0, 0%, 32%);
+    background-color: hsl((0, 0%, 0%);
 }
 
 .threebar .threebar_content {
     background-color: hsl(0°, 0%, 33%);
     postition: absolute;
+    display: "none";
 }
 
 .threebar_content: hover {
