@@ -178,11 +178,11 @@ nav a:hover {
 }
 
 
-.threebar_content p:hover{
+.threebar_content h5:hover{
     background-color: hsl((0, 0%, 0%);
 }
 
-.threebar:hover .threebar_content p{
+.threebar:hover .threebar_content h5{
     padding: 15px 25px;
     display: block;
     text-align: center;
