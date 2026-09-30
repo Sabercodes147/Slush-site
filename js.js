@@ -5,9 +5,9 @@ const sections = document.querySelectorAll("section");
 
 const threebar = document.getElementById("threebar_content");
 
-threebar.onclick = () => {
-  threebar.opacity = 1;
-};
+// threebar.onclick = () => {
+//   threebar.opacity = 1;
+// };
 
 //threebar.forEach(button => {
  // button.addEventListener("click", () =>) {}
