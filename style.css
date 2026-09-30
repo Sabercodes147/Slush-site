@@ -179,7 +179,7 @@ nav a:hover {
     hieght: 40px;
     background: darkblue;
     display: box;
-    postition: absolute;
+    postition: top-right;
     animation: threebars 0.8s ease-out backwards;
 }
 
