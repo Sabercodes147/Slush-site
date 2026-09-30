@@ -162,7 +162,7 @@ nav a:hover {
 .threebar button{
     position: sticky;
     top: 0;
-    right: 0;
+    right: 20px;
     background-color: rgb(0, 0, 0);
     cursor: pointer;
     border-style: solid;
@@ -173,6 +173,17 @@ nav a:hover {
     background-color: hsl(0, 0%, 32%);
 }
 
+.threebar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 8px;
+}
+.threebar:hover .threebar_content{
+    display: block;
+}
+.threebar a:hover{
+    background-color: rgb144, 212, 198);
+}
 
 .threebar .threebar_content {
     background-color: rgb(16, 179, 146);
