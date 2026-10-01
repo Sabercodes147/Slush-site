@@ -158,10 +158,10 @@ nav a:hover {
 }
 .threebar button{
     background-color: hsl(0, 0%, 25%);
-    color: white;
+    
     border-style: groove;
     border-width: 5px;
-    padding: 12px 14px;
+    
     cursor: pointer;
 }
 .threebar a{
