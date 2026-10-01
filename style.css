@@ -68,7 +68,6 @@ section.show {
 }
 .dropdown button{
     background-color: hsl(0, 0%, 25%);
-    color: white;
     border-style: groove;
     border-width: 5px;
     padding: 12px 14px;
