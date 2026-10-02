@@ -164,6 +164,9 @@ nav a:hover {
     border-style: groove;
     border-width: 5px;
     cursor: pointer;
+    position: fixed;
+    right: 10px;
+    top: 10px;
 }
 .threebar h5{
     display: block;
