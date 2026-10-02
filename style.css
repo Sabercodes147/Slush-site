@@ -162,11 +162,11 @@ nav a:hover {
     border-width: 5px;
     cursor: pointer;
 }
-.threebar h6{
+.threebar h5{
     display: block;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 5px 8px;
+    padding: 1px 2px;
 }
 .threebar .threebar_content{
     display: none;
