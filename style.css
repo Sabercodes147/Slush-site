@@ -165,8 +165,8 @@ nav a:hover {
     border-width: 5px;
     cursor: pointer;
     position: fixed;
-    right: 0px;
-    top: 0px;
+    right: 5px;
+    top: 20px;
 }
 .threebar h5{
     display: block;
@@ -176,8 +176,10 @@ nav a:hover {
     padding: 1px 2px;
 }
 .threebar .threebar_content{
+    top: 25px;
+    right: 5px;
     display: none;
-    position: top-left;
+    position: top-right;
     background-color: rgb(97, 97, 97);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.836);
 }
